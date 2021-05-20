@@ -164,7 +164,7 @@ a.active {
 }
 .introRight {
     grid-area: introRight;
-    background-image: url("/images/img-alyssa-headshot.png");
+    background-image: url("../images/img-alyssa-headshot.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
