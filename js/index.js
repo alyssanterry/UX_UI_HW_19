@@ -31,3 +31,9 @@ $(document).ready(function() {
      }
     });
    });
+
+$(document).ready(function(){
+    $("burger").click(function(){
+      $("burgerContainer").toggleClass("open");
+    });
+  });

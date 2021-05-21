@@ -36,7 +36,6 @@ body {
     display: flex;
     align-items: center; 
     justify-content: space-between;
-    background-color: #234078;
     flex-shrink: 1;
     width: 100%;
     position: fixed;
@@ -113,13 +112,6 @@ a.active {
     letter-spacing: 2px;
     line-height: 48px;
     
-}
-.line {
-    width: 100px;
-    height: 5px;
-    background-color: #F2D533;
-    margin: 3px 0;
-    border-radius: 5px;
 }
 .logoName {
     display: flex;
@@ -739,16 +731,20 @@ a.active {
     }
     .burgerContainer {
         z-index: 2;
-        position: relative;
         display: none;
         flex-direction: column;
         float: right;
         color: white;
         padding-top: 100px;
-        padding-bottom: 15px;
-        width: 150px;
+        padding-right: 40px;
+        width: 125px;
         align-items: space-between;
         background-color: #234078;
+        text-align: center;
+        border: 1px solid red;
+    }
+    .open {
+        display: flex;
     }
     .logoName {
         display: flex;
