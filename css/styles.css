@@ -1,4 +1,7 @@
 /*General*/
+body {
+    margin: 0
+}
 h1 {
     font-family: 'Bangers', cursive;
     font-size: 48px;
@@ -739,17 +742,25 @@ a.active {
         padding-right: 50px;
     }
     .burgerContainer {
-        z-index: 1;
-        display: flex;
+        /* z-index: 1;
+        display: none;
         flex-direction: column;
-        float: right;
+        float: right; */
         color: white;
+        /* padding-top: 90px; */
+        padding-top: 120px;
+        /* padding-right: 40px; */
+        width: 250px;
+        /* align-items: space-between; */
+        background-color: #234078;
+        /* text-align: center; */
+    }
+    .burgerContainerList {
+        /* color: white;
         padding-top: 90px;
         padding-right: 40px;
         width: 125px;
-        align-items: space-between;
-        background-color: #234078;
-        text-align: center;
+        text-align: center; */
     }
     .open {
         display: flex;
