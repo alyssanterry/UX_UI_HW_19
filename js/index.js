@@ -1,3 +1,4 @@
+// Underline Navigation After Click
 $(document).ready(function() {
 
     // Get current page URL
@@ -32,6 +33,18 @@ $(document).ready(function() {
     });
    });
 
+//Scroll To Footer on "Contact Me" Click
+   $(document).ready(function() {
+   
+    $('#contactMe').click(function(){
+        $('html, body').animate({scrollTop:$(document).height()}, 'slow');
+        return false;
+    });
+
+});
+
+
+//Toggle Burger Menu
 $(document).ready(function(){
     $("burger").click(function(){
       $("burgerContainer").toggleClass("open");

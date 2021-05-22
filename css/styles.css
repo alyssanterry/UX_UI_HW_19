@@ -436,10 +436,12 @@ a.active {
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 25px;
 }
 .skillsInfographic {
     display: flex;
     justify-self: center;
+    padding-top: 25px;
     width: 1000px;
     height: 400px;
     background-color: gray;
@@ -450,6 +452,7 @@ a.active {
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    padding-top: 25px;
     grid-template-columns: 380px 380px 380px;
     grid-template-rows: 150px 550px;
     grid-template-areas:
@@ -482,6 +485,7 @@ a.active {
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    padding-top: 25px;
     grid-template-columns: 180px 1fr 1fr;
     grid-template-rows: 150px 160px 1fr;
     grid-template-areas:
@@ -541,6 +545,9 @@ a.active {
     padding-left: 2em;
 }
 
+.myResumeBlock5 {
+    padding-top: 25px;
+}
 .GeorgiaTech {
     display: grid;
     width: 100%;
@@ -630,6 +637,8 @@ a.active {
     display: grid;
     width: 100%;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
