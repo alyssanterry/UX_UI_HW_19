@@ -61,5 +61,6 @@ $(document).ready(function () {
 
     // $("ul.burgerContainer li").toggleClass("open");
     $("div.burgerContainer").slideToggle("fast");
+    // $("ul.burgerContainerList").toggleClass(".visible");
   });
 });

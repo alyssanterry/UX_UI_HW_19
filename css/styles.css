@@ -44,7 +44,6 @@ body {
     width: 100%;
     position: fixed;
     top: 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 .headerContainer {
     display: flex;
@@ -115,7 +114,9 @@ a.active {
     font-size: 24px;
     letter-spacing: 2px;
     line-height: 48px;
-    
+}
+.burgerContainerList {
+    /* display: none; */
 }
 .logoName {
     display: flex;
@@ -757,6 +758,9 @@ a.active {
         /* text-align: center; */
     }
     .burgerContainerList {
+        list-style: none;
+        text-align: center;
+        padding-right: 50px;
         /* color: white;
         padding-top: 90px;
         padding-right: 40px;
@@ -765,6 +769,9 @@ a.active {
     }
     .open {
         display: flex;
+    }
+    .visible {
+        display: block;
     }
     .logoName {
         display: flex;
