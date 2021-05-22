@@ -739,18 +739,17 @@ a.active {
         padding-right: 50px;
     }
     .burgerContainer {
-        z-index: 2;
-        display: none;
+        z-index: 1;
+        display: flex;
         flex-direction: column;
         float: right;
         color: white;
-        padding-top: 100px;
+        padding-top: 90px;
         padding-right: 40px;
         width: 125px;
         align-items: space-between;
         background-color: #234078;
         text-align: center;
-        border: 1px solid red;
     }
     .open {
         display: flex;
@@ -775,7 +774,7 @@ a.active {
 
 /**My Work Introduction Section**/
     .introduction {
-        z-index: 1;
+        z-index: 0;
         display: grid;
         padding-top: 100px;
         grid-template-rows: 300px 1fr;

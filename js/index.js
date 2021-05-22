@@ -33,20 +33,28 @@ $(document).ready(function() {
     });
    });
 
-//Scroll To Footer on "Contact Me" Click
+//Scroll To Footer on NAV "Contact Me" Click
    $(document).ready(function() {
    
     $('#contactMe').click(function(){
         $('html, body').animate({scrollTop:$(document).height()}, 'slow');
         return false;
     });
-
 });
-
+//Scroll To Footer on BURGER "Contact Me" Click
+$(document).ready(function() {
+   
+  $('#contactMe2').click(function(){
+      $('html, body').animate({scrollTop:$(document).height()}, 'slow');
+      return false;
+  });
+});
 
 //Toggle Burger Menu
 $(document).ready(function(){
-    $("burger").click(function(){
-      $("burgerContainer").toggleClass("open");
-    });
+  $(".burger").click(function() {
+    $(this).toggleClass('open');
+    $("ul.burgerContainer li").slideToggle('fast');
+})
+
   });
